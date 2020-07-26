@@ -1,0 +1,54 @@
+body{
+  background-color: darkgray;
+}
+span{
+
+  color: red;
+
+}
+input[type="checkbox"]:required:invalid + label { color: red; }
+  input[type="checkbox"]:required:valid + label { color: green; }
+h1{
+    color: orangered;
+}
+#stripe {
+    background:black;
+    height: 30px;
+    text-align: center;
+    color: black;
+}
+table{
+	margin-top: 50px;
+	text-align: center;
+	background: #333;
+	color: #fff;
+}
+
+#show th, #show td{
+	padding: 13px;
+}
+
+#btna td input{
+	width: 100%;
+}
+.input_log{
+      width: 300px;
+      border: none;
+      border-bottom: 1px solid black;
+      outline: 0px;
+      padding: 7px;
+      background: transparent;
+}
+/* .log-box{
+  background: rgba(0,0,0,.5);
+  color: #fff;
+  width: 50%;
+  height: 120%;
+  top: 90%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  box-sizing: border-box;
+  position: absolute;
+  padding: 70px 30px;
+ 
+ } */
